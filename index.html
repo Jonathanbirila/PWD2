@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Favorite Things</title>
+   
+</head>
+<body>
+<header>
+    <nav class="navbar">
+        <a href="#" class="logo">My Favorite Things</a>
+        <ul id="nav-links">
+            <li><a href="#card">Favorite</a></li>
+            <li><a href="#alasan">Alasan</a></li>
+            <li><a href="#kontak">Tentang Saya</a></li>
+        </ul>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    </nav>
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.getElementById("nav-links");
+            navLinks.classList.toggle("show");
+        }
+    </script>
+</header>
+
+<br>
+<!-- card section -->
+<section id="card">
+    <div class="card-container">
+        <div class="card">
+            <img src="/img/image2.png" alt="Image 1">
+            <div class="card-content">
+                <h3>My favorite Thing 1</h3>
+                <p>Saya menyukai beliau, tetapi saya tidak tau kenapa saya bisa menyukai beliau</p>
+                <a href="https://www.instagram.com/stories/highlights/18277302646174856/" class="href">About Her</a>
+            </div>
+        </div>
+    
+        <div class="card">
+            <img src="/img/image.png" alt="Image 2">
+            <div class="card-content">
+                <h3>My favorite Thing 2</h3>
+                <p>Sampai sekarang pun saya tidak tau kenapa saya bisa suka sama beliau ini</p>
+                <a href="https://www.instagram.com/stories/highlights/18277302646174856/" class="href">About Her</a>
+
+            </div>
+        </div>
+    
+        <div class="card">
+            <img src="/img/image1.png" alt="Image 3">
+            <div class="card-content">
+                <h3>My favorite Thing 3</h3>
+                <p>Beliau sangat cantik bukan? tetapi beliau ini kaya anak kecil hahahhah, tetapi beliau lucu</p>
+                <a href="https://www.instagram.com/stories/highlights/18277302646174856/" class="href">About Her</a>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<br>
+<section id="alasan">
+    <div>
+        <h1>Alasan saya menyukai ke-3 hal ini</h1>
+        <div class="list">
+            <li>Karena saya ingin menjaga dia</li>
+            <li>Karena saya ingin membuat dia tersenyum</li>
+            <li>Karena saya ingin membuat dia merasa ada yang peduli dengan nya</li>
+            <li>Karena saya ingin membuat dia merasa tidak sendirian</li>
+            <li>Karena saya ingin membuat dia merasa nyaman dengan hidup nya</li>
+            <li>Karena saya ingin membuat dia merasa sangat di hargai di dunia ini</li>
+        </div><br>
+    </div>
+</section>
+
+<footer id="kontak">
+    <p>&copy; Jonathan Birila - pembuat web sederhana ini</p>
+        <p>
+            <a href="https://www.instagram.com/jonathan.birila/">Instagram</a>
+        </p>
+
+</footer>
+</body>
+</html>
